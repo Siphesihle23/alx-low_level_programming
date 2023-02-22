@@ -1,10 +1,7 @@
 #include "main.h"
-#include <stdio>
 /*
- * print_alphabet - the program to print the alphebet
- *
+ *print_alphabet - make alpabet
  *Return: void
- *
  */
 
 void print_alphabet(void)
@@ -15,5 +12,5 @@ void print_alphabet(void)
 	{
 	_putchar(c);
 	}
-	_putchar("\n");
+	_putchar('\n');
 }
